@@ -250,6 +250,7 @@ const initScene = () => {
                 })
             })
         );
+        // 模型1：shanghai_tower 
         model0 = viewer.scene.primitives.add(
             new Cesium.Model.fromGltf({
                 url: "./Static/data/shanghai_tower/scene.gltf",
@@ -285,7 +286,7 @@ const initScene = () => {
                     [3, 3, 2.5]),
             })
         );
-
+        // 模型2
         model1 = viewer.scene.primitives.add(
             Cesium.Model.fromGltf({
                 url: "./Static/data/building_-_beveled_corners_-_shiny/scene.gltf",
@@ -321,7 +322,7 @@ const initScene = () => {
                     [3, 3, 4.4]),
             })
         );
-
+        // 模型3
         model2 = viewer.scene.primitives.add(
             Cesium.Model.fromGltf({
                 url: "./Static/data/building_-_octagonal_-_shiny/scene.gltf",
@@ -357,7 +358,7 @@ const initScene = () => {
                     [2.5, 2.5, 3.0]),
             })
         );
-
+        // 模型4
         model3 = viewer.scene.primitives.add(
             Cesium.Model.fromGltf({
                 url: "./Static/data/oriental_pearl_shanghai. (1)/scene.gltf",
